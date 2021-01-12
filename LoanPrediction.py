@@ -69,6 +69,7 @@ classifier.fit(X_opt,Y)
 
 Y_pred=classifier.predict(X_opt)
 
+#Checking the precidicted values
 from sklearn.metrics import confusion_matrix as cm
 cm(Y,Y_pred)
 
